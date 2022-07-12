@@ -9,6 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.googlesigninbuttontutorial.ui.GoogleSignInButton
 import com.example.googlesigninbuttontutorial.ui.theme.GoogleSignInButtonTutorialTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,16 +22,22 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    
+                    ScreenContent()
                 }
             }
         }
     }
 }
 
-@Preview(showBackground = true)
+@Composable
+fun ScreenContent(modifier: Modifier = Modifier) {
+    GoogleSignInButton(modifier = modifier)
+}
+
+@Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun DefaultPreview() {
     GoogleSignInButtonTutorialTheme {
+        ScreenContent()
     }
 }
