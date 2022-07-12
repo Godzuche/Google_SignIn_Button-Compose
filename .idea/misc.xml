@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/GoogleSignInButtonTutorial/app/src/main/java/com/example/googlesigninbuttontutorial/MainActivity.kt" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/GoogleSignInButtonTutorial/app/src/main/java/com/example/googlesigninbuttontutorial/ui/GoogleSignInButton.kt" value="0.18961148648648649" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK" />
+</project>
